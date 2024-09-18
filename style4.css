@@ -1,0 +1,40 @@
+/* Estilos para la página individual */
+.detalle-destino {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.detalle-destino img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.detalle-destino h1 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.detalle-destino p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    max-width: 800px;
+}
+
+.volver {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.volver:hover {
+    background-color: #555;
+}
